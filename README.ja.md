@@ -13,12 +13,12 @@ https://code4fukui.github.io/ar-image-viewer/
 ## 使い方
 URLパラメータで画像や設定を指定できます。
 
-- src: 画像URL
-- w: 幅(m)
-- h: 高さ(m)
-- x: 設置中心点X(m)
-- y: 設置中心点Y(m)
-- z: 設置中心点Z(m)
+- `src`: 画像URL
+- `w`: 幅(m)
+- `h`: 高さ(m)
+- `x`: 設置中心点X(m)
+- `y`: 設置中心点Y(m)
+- `z`: 設置中心点Z(m)
 
 ## ライセンス
 MIT License

@@ -1,5 +1,7 @@
 # AR Image Viewer
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A simple AR viewer to display 2D images in a 3D space.
 
 ## Demo
