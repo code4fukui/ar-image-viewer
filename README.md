@@ -1,20 +1,30 @@
-# ar-image-viewer
+# AR Image Viewer
 
-## usage
+A simple AR viewer to display 2D images in a 3D space.
 
-### demo
+## Demo
+https://code4fukui.github.io/ar-image-viewer/
 
-- https://code4fukui.github.io/ar-image-viewer/
+## Features
+- Displays 2D images in 3D space
+- Supports customizable size, position, and orientation of the image
+- Utilizes A-Frame, a web framework for building virtual reality (VR) experiences
 
-### parameters
+## Usage
+The AR image viewer can be customized using the following parameters in the URL:
 
-- src: 画像URL
-- w: 幅(m)
-- h: 高さ(m)
-- x: 設置中心点X(m)
-- y: 設置中心点Y(m)
-- z: 設置中心点Z(m)
+- `src`: URL of the image to be displayed
+- `w`: Width of the image in meters
+- `h`: Height of the image in meters
+- `x`: X-coordinate of the center position in meters
+- `y`: Y-coordinate of the center position in meters
+- `z`: Z-coordinate of the center position in meters
 
-## related
+For example, to display an image with a width of 5.4 meters, a height of 1.4 meters, and positioned at (0, 1.5, -1.8), the URL would be:
 
-- [ar-panorama-viewer](https://github.com/code4fukui/ar-panorama-viewer/)
+```
+https://code4fukui.github.io/ar-image-viewer/?src=./img/sabae-candidates-2023.jpg&w=5.4&h=1.4&x=0&y=1.5&z=-1.8
+```
+
+## License
+This project is licensed under the MIT License.
