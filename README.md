@@ -29,4 +29,4 @@ https://code4fukui.github.io/ar-image-viewer/?src=./img/sabae-candidates-2023.jp
 ```
 
 ## License
-This project is licensed under the MIT License.
+MIT License — see [LICENSE](LICENSE).
